@@ -41,7 +41,7 @@ const Docsignup = () => {
           <TextField sx={{mb: 2}} label='Password' placeholder='Enter Password' variant='standard' type='password' fullWidth required/>
           <TextField sx={{mb: 2}} label='Confirm Password' placeholder='Confirm Password' variant='standard' type='password' fullWidth required/>
           <Link to="/doctor"><Button sx={{fontSize: '20px', backgroundColor: '#1bbd7e', mb: 2}} type='submit' variant='contained' fullWidth>SIGN UP</Button></Link>
-          <Typography variant='h6'>Already have an Account ? <Link to="/docform"> Sign In</Link></Typography>
+          <Typography variant='h6'>Already have an Account ? <strong>Sign In</strong></Typography>
           <Link to="/"><Button fullWidth>Back to home</Button></Link>
   
         </Paper>

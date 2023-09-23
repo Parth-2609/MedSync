@@ -16,7 +16,7 @@ const docform = () => {
         <TextField sx={{mt: 5, mb: 5}} label='Doctor ID' placeholder='Enter your ID' variant='standard' fullWidth required/>        
         <TextField sx={{mb: 5}} label='Password' placeholder='Enter Password' variant='standard' type='password' fullWidth required/>
         <Link to="/doctor"><Button sx={{fontSize: '20px', backgroundColor: '#1bbd7e', mb: 5}} type='submit' variant='contained' fullWidth>SIGN IN</Button></Link>
-        <Typography variant='h6'>Don't have an Account ? <Link to="/doctorsignup"> Sign Up</Link></Typography>
+        <Typography variant='h6'>Don't have an Account ? <strong>Sign Up</strong></Typography>
         <Link to="/"><Button fullWidth>Back to home</Button></Link>
 
       </Paper>

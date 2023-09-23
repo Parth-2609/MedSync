@@ -15,7 +15,7 @@ const NavBar = () => {
                 Doctor
               </Button>
             </Link>
-            <Link to='/userform'>
+            <Link to='/usersign'>
               <Button color='inherit' variant='contained' size='large' sx={{mr: '50px'}}>
                 User
               </Button>
